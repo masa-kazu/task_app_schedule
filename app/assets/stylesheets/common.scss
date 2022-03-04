@@ -1,0 +1,53 @@
+table th {
+  background-color: lightcoral;
+  padding: 10px 20px;
+}
+
+table td {
+  background-color: lightpink;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.notice {
+  background-color: lightgreen;
+  padding: 5px;
+  width: 500px;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  width: 100%;
+}
+
+input[type="submit"] {
+  width: auto;
+}
+
+header,
+footer {
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  margin: 0px;
+  display: block;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  padding-bottom: 100px;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
